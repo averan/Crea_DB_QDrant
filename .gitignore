@@ -1,7 +1,49 @@
-   # .gitignore
-   .env
-   __pycache__/
-   *.pyc
-   *.pyo
-   *.pyd
-   .ipynb_checkpoints
+# .gitignore
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Archivos de entorno
+.env
+.env.local
+.env.development
+.env.test
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Build y distribuciones
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de prueba y coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de desarrollo local
+settings/local.py
+*.log
+logs/
+
+# Archivos temporales
+temp/
+tmp/
